@@ -10,7 +10,7 @@
     <script>
         var tag = this;
         
-        this.styles = require('./hello.scss');
+        this.styles = require('./my-app.scss');
         this.lipsumVisible = false;
         
         this.toggleLipsum = function() {
