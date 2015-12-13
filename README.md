@@ -60,7 +60,7 @@
 </pre>
 
 <p>
-    Você deve ter observado que foi usada a tag <strong>my-app</strong>, que é na verdade uma tag customizada
+    Você deve ter observado que foi usada a tag <strong>my-app</strong>, que é na verdade uma <em>custom tag</em>
     que iremos criar mais a frente. Por enquanto, ela simplesmente não vai ter efeito.
 </p>
 <p>
@@ -71,7 +71,7 @@
 </pre>
 <p>
     Agora que já temos alguns arquivos para experimentar o <strong>webpack</strong>, vamos aos preparativos.
-    Incialize o npm no diretório raiz e instale os pacotes que iremos utilizar neste exemplo:
+    Inicialize o npm no diretório raiz e instale os pacotes que iremos utilizar neste exemplo:
 </p>
 <pre>
     npm init
@@ -81,7 +81,7 @@
     npm install --save-dev css-loader style-loader node-sass sass-loader
 </pre>
 <p>
-    O webpack pode ser utilizado sem um arquivo de configuração, mas vamos pular esse passo basicão e cair dentro
+    O <strong>webpack</strong> pode ser utilizado sem um arquivo de configuração, mas vamos pular esse passo basicão e cair dentro
     do jeito legal de usá-lo. Crie na raiz do projeto o arquivo <em>webpack.config.js</em>.
     Vamos começar com a seguinte configuração:
 </p>
@@ -153,12 +153,12 @@
     clique executa a função <em>toggleLipsum</em> para habilitar/desabilitar a exibiçao da tag <strong>lipsum</strong>.
     Sabendo que a tag <strong>lipsum</strong> não é necessária no momento em que a tag <strong>my-app</strong> é
     renderizada (já que o comportamento padrão é ocultá-la), podemos optar por carregá-la somente quando houver
-    demanda. Para isso, como você pode observar no código acima, utilizamos <em>require</em> com um callback para
-    ser executado após a carga dos assets demandados.
+    demanda. Para isso, como você pode observar no código acima, utilizamos <em>require</em> com um <em>callback</em> para
+    ser executado após a carga dos <em>assets</em> demandados.
 </p>
 <p>
     Agora vamos criar as dependências que faltam. Ainda dentro do diretório <em>/app/tags</em>
-    crie os arquivo <em>my-app.scss</em> e <em>lipsum.tag</em>:
+    crie os arquivos <em>my-app.scss</em> e <em>lipsum.tag</em>:
 </p>
 
 <pre>
