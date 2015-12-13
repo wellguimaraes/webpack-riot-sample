@@ -1,0 +1,13 @@
+$default-color: blue;
+$active-color: red;
+
+button {
+    background: $default-color;
+    border: 0;
+    color: white;
+    outline: none;
+    
+    &.active {
+        background: $active-color;
+    }
+}
