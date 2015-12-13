@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-      main: "./app/index.js"
+      main: "./app/main.js"
   },
   output: {
     path: __dirname + '/public/bundles',
@@ -15,13 +15,11 @@ module.exports = {
   ],
   module: {
     preLoaders: [
-      { test: /\.tag$/, exclude: /node_modules/, loader: 'riotjs-loader', query: { type: 'none' } }
+      
     ],
     loaders: [
+        { test: /\.tag$/, loader: 'riotjs-loader' },
       { test: /\.scss$/, loaders: ["style", "css", "sass"] }
     ]
-  },
-  devServer: {
-    contentBase: './public'
   }
 };
