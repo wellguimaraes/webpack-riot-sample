@@ -3,8 +3,7 @@
 <p>
     De maneira simples, podemos definir o <strong>webpack</strong> como um empacotador de módulos (javascript e cia):
     pega um asset aqui e outro ali e os transforma em algo que você possa rodar. Parece algo trivial,
-    mas pode ser trabalhoso. É aí que entra o <strong>webpack</strong> pra facilitar <span
-        class="strike">um pouco</span> bastante a vida.
+    mas pode ser trabalhoso. É aí que entra o <strong>webpack</strong> pra facilitar <strike>um pouco</strike> bastante a vida.
 </p>
 <p>
     Se você já conhece/usa o <strong>Browserify</strong>, deve me perguntar por quê trocaria seis por meia dúzia.
